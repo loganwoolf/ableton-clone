@@ -1,0 +1,99 @@
+root {
+  font-size: 10px;
+}
+
+h1, p {
+	font-family: Catamaran;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header-nav{
+  font-family: 'Catamaran';
+  font-weight: bold;
+  box-shadow: 0px 0px 7px #888;
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+#header-nav a, #local-nav a{
+  color: black;
+  text-decoration-line: none;
+}
+
+.header-nav-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0rem;
+}
+
+#graphic {
+  transform: translate(5px, 4px);
+}
+
+.nav-item {
+  margin: 1em;
+}
+#try-live {
+  color: blue !important;
+}
+#account {
+  font-size: 0.8em;
+  align-self: top;
+}
+
+#local-nav {
+  font-family: 'Catamaran';
+  font-weight: bold;
+  font-size: 12px;
+  height: 3rem;
+  background-color: #FFFA;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+#local-nav-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.local-nav-item {
+  margin: 1em;
+}
+
+#this-page {
+  color: orangered !important;
+}
+
+#img-bank-1 {
+	width: 98vw;
+  position: relative;
+}
+
+.img-bank p{
+  font-family: 'Catamaran';
+  font-size: 8vw;
+  color: orangered;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%)
+  
+}
+
+#img-1 {
+  display: block;
+  width: 80vw;
+  margin: auto;
+}
